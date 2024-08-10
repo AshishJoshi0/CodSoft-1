@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(CodSoft/2465431.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+.main nav img {
+    width: 130px;
+    position: relative;
+    margin-top: 23px;
+    margin-left: 100px;
+    z-index: 10;
+}
+
+.main ul {
+    color: white;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 45px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+li {
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'martel sans', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.hero span {
+    margin: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.hero p {
+    margin: 2px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero button {
+    margin: 23px;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 23px;
+    color: white;
+    background-color: #f00c23;
+}
+
+.hero p {
+    z-index: 10;
+}
+
+.hero span {
+    z-index: 10;
+}
+
+button {
+    z-index: 10;
+}
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000vh;
+    max-height: 1000vh;
+    margin: 80px;
+    color: white;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 401px;
+    position: relative;
+    z-index: 10;
+    margin-top: 12px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.container b {
+    font-size: 45px;
+}
+
+.container p {
+    font-size: 21px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000vh;
+    max-height: 1000vh;
+    margin: 80px;
+    color: white;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000vh;
+    max-height: 1000vh;
+    margin: 80px;
+    color: white;
+    gap: 34px;
+}
+
+.form {
+    color: white;
+    background: url(CodSoft/wp5339178.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 150vh;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.register {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #ffff;
+}
+#register{
+    margin: 40px;
+}
+label{
+    font-family:sans-serif;
+    font-size:18px;
+}
+#male{
+    cursor:pointer;
+}
+#female{
+    cursor:pointer;
+}
+#hindi{
+    cursor:pointer;
+}
+#english{
+    cursor:pointer;
+}
+#other{
+    cursor:pointer;
+}
+#name{
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius:3px;
+    padding: 5px;
+    background-color:#fff;
+    font-size:18px;
+    box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+#button{
+margin-left:80px;
+height: 34px;
+width: 200px;
+padding: 7px;
+font-size:16px;
+font-family:sans-serif;
+font-weight: 600;
+border-radius:3px;
+background-color:#ff8000;
+cursor:pointer;
+border: 1px solid rgb(139, 137, 137);
+box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+
+footer {
+    color: white;
+    margin: 98px;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(214, 2, 2);
+}
+
+.footer a {
+    font-size: 14px;
+    color: rgb(191, 191, 191);
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+@media screen and (max-width:1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+    }
+        .btn-red-sm {
+            left: 70px;
+            bottom: 23px;
+}
+}
