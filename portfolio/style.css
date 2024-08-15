@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 38);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    height: 5vw;
+}
+
+nav {
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(2 2 74 / 65%);
+}
+
+.left {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(179, 179, 223);
+    justify-content: space-between;
+}
+
+.right {
+
+    margin-left: 12px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(240, 119, 13);
+    font-size: 1.01rem;
+}
+
+main {
+    height: 30vw;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+.leftsection {
+    font-family: 'poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.purple {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.rightsection img {
+    height: 26vw;
+    width: 27vw;
+    margin: 0px 0;
+    filter: drop-shadow(1px 2px 10px rgb(137, 69, 209));
+
+}
+
+.rightsection {
+    height: 30vw;
+    width: 30vw;
+
+}
+
+#element {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.leftsection button {
+    font-size: 23px;
+    padding: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 15px rgb(221, 100, 232));
+}
+
+#git {
+    color: rgb(0, 0, 255);
+    font-size: 21px;
+
+}
+
+#gitt {
+    color: red;
+    font-size: 21px;
+}
+
+hr {
+    /* width: 100%; */
+    border: 2px solid rgb(54, 42, 99);
+    margin: 50px;
+    margin-left: -29px;
+    margin-right: 1px;
+}
+
+.sectionsecond {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondsecond h1 {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.sectionsecond .box {
+    background: white;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.sectionsecond .vertical {
+    height: 53px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.vertical-tittle {
+    position: relative;
+    top: 24px;
+    left: -40px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 27px;
+    left: -40px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+
+.image-top {
+    width: 29px;
+    height: 30px;
+    position: relative;
+    top: -38px;
+    left: -14px;
+}
+
+.container {
+    height: 40vw;
+    width: 99vw;
+    position: relative;
+}
+
+.container .rectangle {
+    height: 30vw;
+    width: 88vw;
+    left: 6vw;
+    top: 5vw;
+    position: relative;
+    border: 2px solid rgb(17, 25, 106);
+    border-radius: 23px;
+    box-shadow: 0px 0px 40px rgb(11, 11, 146);
+    margin-bottom: 23vw;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 23px;
+}
+
+.text {
+    height: 26.5vw;
+    width: 87vw;
+    display: flex;
+
+}
+
+#about {
+    margin-top: 50px;
+}
+
+.sec {
+    height: 23vw;
+    width: 56vw;
+    text-align: center;
+
+
+}
+
+b {
+    color: blueviolet
+}
+
+.sec h2 {
+    text-decoration: underline;
+}
+
+.info h3 {
+    padding-left: 12px;
+    color: rgb(179, 179, 223);
+}
+
+.text .ashish {
+    top: -103px;
+    height: 33.2vw;
+    width: 32vw;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 0px 3px blue);
+}
+
+
+
+.long {
+    height: 25vw;
+    width: 48vw;
+    margin-left: 5vw;
+    font-size: 20px;
+}
+
+.long .text-info {
+    font-size: 23px;
+    width: 45vw;
+    font-family: 'poppins', sans-serif;
+}
+
+.forthsection {
+    height: 35vw;
+    width: 99vw;
+    position: relative;
+
+}
+
+.skills {
+    height: 25vw;
+    width: 88vw;
+    left: 6vw;
+    top: 5vw;
+    position: relative;
+    border: 2px solid rgb(11, 16, 70);
+    border-radius: 23px;
+    margin-bottom: 23vw;
+
+}
+
+.shirt {
+    margin: 30px 54px 12px 126px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(179, 179, 223);
+}
+
+.imghtml {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 93px 10px 126px;
+}
+
+.imghtml2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 93px 10px 126px;
+}
+
+.skills img {
+    height: 6vw;
+    width: 8vw;
+    gap: 23vw;
+}
+.contact-us h3{
+    display: inline;
+    float: none;
+    border-bottom: 2px solid white;
+  }
+  
+  .contact-us{
+   text-align: center;
+  }
+
+  .contact-info {
+    background-color: #0e0e1a;
+    height: 233px;
+   } 
+  
+  footer .footer-rights {
+    text-align: center;
+    color: gray;
+    background-color: #0e0e1a;
+    padding: 12px 0;
+  }
+
+  .contact-me{
+    display: inline;
+    float: right;
+    margin: 40px 20px 0px 0px;      
+  }
+
+  .contact-me>h3,p{
+    line-height: 30px;
+    text-align: start;
+  }
+
+  .connect-to{
+    display: inline;
+    float: left;
+    margin: 50px 0px 0px 200px;
+  }
+
+  .connect-to> h3{
+    text-align: center;
+  }
+
+  .social-media{
+    margin-top: 12px;
+  }
+
+  a{
+    color: white;
+    text-decoration:none;
+  }
+  .social-media>a{
+    margin-right: 5px;
+  }
+
+  .social-media>a:hover{
+    font-size: 1.02rem;
+  }
+
+  .contact{
+    display: inline;
+    float: right;
+    margin-right: 200px;
+  }
+
+  .home-page{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+  } 
+
+  .connect::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+.text-color{
+    color:blueviolet;
+}
